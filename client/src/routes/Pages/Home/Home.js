@@ -10,9 +10,6 @@ const Home = () => (
     <section class="hero full-screen">
 
       <div class="info">
-        <h1 class="title">Share files the modern way</h1>
-        <h2 class="subtitle">Using just a web browser to any device on the Internet!</h2>
-
         <a href="/app" class="btn">
           Start Sharing
         </a>
@@ -43,7 +40,6 @@ const Home = () => (
         <img src={twoDevices} alt="Laptop and mobile connected together" loading="lazy" style="margin-right: -60px" />
         <h2>Easy to use</h2>
         <p>
-          Blaze is a web app, just open it in your browser, join a room, and start sharing. No need to install any specific app, or create an account!
         </p>
       </div>
 
@@ -51,23 +47,16 @@ const Home = () => (
         <img src={threeDevices} alt="Laptop and two mobiles connected together" loading="lazy" />
         <h2>Multi-device</h2>
         <p>
-          Traditionally, sharing files to multiple devices has been a hassle. With Blaze, you can share files across multiple devices with ease.
         </p>
       </div>
       
       <div class="feature">
         <img src={earth} alt="Devices in different parts of the world using Blaze to share files" loading="lazy" style="transform: scale(0.9)" />
-        <h2>Anywhere</h2>
-        <p>
-          Blaze is built on modern web technologies, allowing it to work on devices far away from each other. It just needs to be connected to the internet.
-        </p>
+        <h2></h2>
       </div>
     </section>
     <section class="hero final-cta">
       <div>
-        <h2 class="title">Let's get sharing!</h2>
-        <h3 class="subtitle">No registrations required, completely free</h3>
-
         <a href="/app" class="btn">
           Start sharing
         </a>
