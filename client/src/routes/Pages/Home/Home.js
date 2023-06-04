@@ -16,20 +16,6 @@ const Home = () => (
         <a href="/app" class="btn">
           Start Sharing
         </a>
-        <a
-          class="ph-mob"
-          href="https://www.producthunt.com/posts/blaze-2?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-blaze-2"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=174403&theme=dark&period=daily"
-            alt="Blaze - Fast peer to peer file sharing web app ⚡ | Product Hunt Embed"
-            style="width: 250px; height: 54px;"
-            width="250px"
-            height="54px"
-          />
-        </a>
       </div>
 
       <img class="network-img" src={network} alt="Devices connected using Blaze" />
@@ -77,23 +63,6 @@ const Home = () => (
         </p>
       </div>
     </section>
-
-    <section class="about" id="about">
-
-      <blockquote>
-        <span>"</span>I built Blaze because I wanted a fast, radically different way to transfer files between my laptop and mobile<span>"</span>
-
-        <footer>
-          <a href="https://akashhamirwasia.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://github.com/blenderskool.png?size=100" alt="Akash Hamirwasia" />
-          </a>
-          <cite class="author">Akash Hamirwasia</cite>
-          <cite class="position">Creator of Blaze</cite>
-        </footer>
-      </blockquote>
-
-    </section>
-
     <section class="hero final-cta">
       <div>
         <h2 class="title">Let's get sharing!</h2>
