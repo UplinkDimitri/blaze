@@ -19,7 +19,6 @@ export default function Pages() {
         <FourOFour path="/404" />
         <RedirectToFourOFour default />
       </Router>
-      <Footer />
     </div>
   );
 }
